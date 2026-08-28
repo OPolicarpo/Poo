@@ -5,7 +5,7 @@ CAMINHAO / FATOR = 1.2 / CAL
 DRONE / FATOR = 9,5 / CALC FRETE'''
 from classe import Transporte, Moto, Caminhao, Drone
 def main():
-    distancia = 20
+    distancia = 80
 
     entrega = Caminhao(distancia)
     print(f"Frete de {type(entrega).__name__} em {distancia}km = {entrega.cal_frete()}")
